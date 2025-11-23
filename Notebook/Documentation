@@ -1,4 +1,4 @@
-# Descripción Detallada del Pipeline Banzai Dada2
+# Descripción del Pipeline Banzai Dada2
 
 El Pipeline Banzai Dada2 es un script personalizado basado en el pipeline Banzai, adaptado para ejecutarse por cada placa de secuenciación. En este pipeline, las secuencias de los cebadores se eliminan de los archivos fastq mediante el programa Atropos. Luego, los archivos fastq se procesan con el programa Dada2. Este programa modela los errores de secuenciación de acuerdo con cada ejecución de Illumina, controlando la calidad de las lecturas y seleccionando las secuencias de variantes de amplicón (ASV, por sus siglas en inglés) que representan la variabilidad biológica, en lugar de los errores de secuenciación.
 
