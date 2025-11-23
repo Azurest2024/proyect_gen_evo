@@ -24,21 +24,14 @@ El dataset utilizado en este proyecto proviene de "Frontiers in Microbiology" (S
 
 Números de acceso (SRR):
 
-SRR13079473
-
-SRR13079474
-
-SRR13079475
-
-SRR13079476
-
-SRR13079478
-
-SRR13079479
-
-SRR13079480
-
-SRR13079481
+- SRR13079473
+- SRR13079474
+- SRR13079475
+- SRR13079476
+- SRR13079478
+- SRR13079479
+- SRR13079480
+- SRR13079481
 
 ## Métodos
 
@@ -54,17 +47,17 @@ R: Para análisis estadísticos y visualización de la diversidad microbiana, ut
 
 El repositorio contiene los siguientes archivos y carpetas:
 
-scripts/: Carpeta con los scripts en Bash, R y Python.
+- scripts/: Carpeta con los scripts en Bash, R y Python.
 
-Dada2_2019v1.0.r: Script de R para la denoización de secuencias 16S usando Dada2.
+- Dada2_2019v1.0.r: Script de R para la denoización de secuencias 16S usando Dada2.
 
-Make_otu_taxa_table.py: Script en Python para crear una tabla de OTUs a partir de los resultados de Dada2.
+- Make_otu_taxa_table.py: Script en Python para crear una tabla de OTUs a partir de los resultados de Dada2.
 
-Post_BLAST_processing_dada2_v2.0.sh: Script en Bash para procesar los resultados después de BLAST.
+- Post_BLAST_processing_dada2_v2.0.sh: Script en Bash para procesar los resultados después de BLAST.
 
-XML_Filter_dada2.py: Filtra los resultados de Dada2 basándose en los parámetros específicos.
+- XML_Filter_dada2.py: Filtra los resultados de Dada2 basándose en los parámetros específicos.
 
-dataset/: Carpeta que contiene los archivos de datos de secuenciación (archivos SRA).
+- dataset/: Carpeta que contiene los archivos de datos de secuenciación (archivos SRA).
 
 ## Resultados Esperados
 
