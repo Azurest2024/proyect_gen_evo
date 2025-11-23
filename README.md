@@ -61,7 +61,7 @@ Python: Scripts para análisis de datos y generación de tablas OTU.
 
 R: Utilizado principalmente para la visualización de resultados y análisis de diversidad microbiana.
 
-Estructura de los Archivos
+## Estructura de los Archivos
 
 El repositorio contiene los siguientes archivos y carpetas:
 
