@@ -19,8 +19,7 @@ Comparar la diversidad microbiana entre diferentes muestras de sedimentos para i
 
 ## Dataset
 
-El dataset utilizado en este proyecto proviene de "Frontiers in Microbiology"
-, específicamente de muestras de sedimentos acuáticos. Las secuencias de ADN correspondientes a las muestras fueron obtenidas de varios puntos de sedimento y almacenadas en el repositorio de NCBI bajo el Bioproject PRJNA679187. Las secuencias de 16S rRNA fueron extraídas para ser procesadas y analizadas.
+El dataset utilizado en este proyecto proviene de "Frontiers in Microbiology" (Salonen et al., 2021), específicamente de muestras de sedimentos acuáticos. Las secuencias de ADN correspondientes a las muestras fueron obtenidas de varios puntos de sedimento y almacenadas en el repositorio de NCBI bajo el Bioproject PRJNA679187. Las secuencias de 16S rRNA fueron extraídas para ser procesadas y analizadas.
 
 Números de acceso (SRR):
 
@@ -42,24 +41,13 @@ SRR13079481
 
 ## Métodos
 
-Para el análisis, se emplea el pipeline BANZAI que integra varios lenguajes de programación y herramientas de bioinformática:
+Para el análisis, se emplea el pipeline BANZAI obtenido del repositorio del MBARI (https://github.com/MBARI-BOG/BOG-Banzai-Dada2-Pipeline.git) que integra varios lenguajes de programación y herramientas de bioinformática:
 
 Bash: Para la ejecución de los scripts que automatizan el proceso de filtrado y preparación de los datos de secuenciación.
 
 Python: Usado para realizar el procesamiento posterior, como la creación de tablas OTU y análisis adicionales sobre las secuencias.
 
 R: Para análisis estadísticos y visualización de la diversidad microbiana, utilizando herramientas como Dada2 para la denoización y asignación taxonómica.
-
-Los scripts fueron obtenidos de este repositorio de GitHub
-, que proporciona una implementación detallada y eficiente del pipeline de análisis de datos metabarcoding de 16S rRNA.
-
-## Tipos de Scripts:
-
-Bash: Scripts para procesar los datos de entrada y ejecutar pipelines de análisis.
-
-Python: Scripts para análisis de datos y generación de tablas OTU.
-
-R: Utilizado principalmente para la visualización de resultados y análisis de diversidad microbiana.
 
 ## Estructura de los Archivos
 
