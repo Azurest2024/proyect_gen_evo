@@ -1,13 +1,13 @@
 # Proyecto de Análisis de Sedimentos: Metabarcoding de Comunidades Microbianas
-Hipótesis
+## Hipótesis
 
 Se espera que las comunidades microbianas presentes en los sedimentos de diversos ecosistemas acuáticos presenten una composición diferencial según las características ambientales del área, lo que puede estar influenciado por factores como la profundidad, el tipo de sustrato y la exposición a contaminantes. A través del análisis metabarcoding de 16S rRNA, se busca identificar y comparar las comunidades bacterianas presentes en sedimentos de distintas localizaciones, con el fin de entender mejor su relación con los factores ambientales.
 
-Objetivos
+## Objetivos
 
 Objetivo General: Analizar las comunidades microbianas de sedimentos acuáticos utilizando datos metabarcoding de 16S rRNA, con el fin de explorar la diversidad bacteriana y su relación con las condiciones ambientales de los ecosistemas.
 
-Objetivos Específicos:
+## Objetivos Específicos:
 
 Obtener datos de secuenciación metabarcoding de sedimentos utilizando el protocolo estándar de la literatura.
 
@@ -17,7 +17,7 @@ Realizar la asignación taxonómica de las secuencias mediante la base de datos 
 
 Comparar la diversidad microbiana entre diferentes muestras de sedimentos para identificar posibles patrones ecológicos relacionados con las variables ambientales.
 
-Dataset
+## Dataset
 
 El dataset utilizado en este proyecto proviene de "Frontiers in Microbiology"
 , específicamente de muestras de sedimentos acuáticos. Las secuencias de ADN correspondientes a las muestras fueron obtenidas de varios puntos de sedimento y almacenadas en el repositorio de NCBI bajo el Bioproject PRJNA679187. Las secuencias de 16S rRNA fueron extraídas para ser procesadas y analizadas.
@@ -40,7 +40,7 @@ SRR13079480
 
 SRR13079481
 
-Métodos
+## Métodos
 
 Para el análisis, se emplea el pipeline BANZAI que integra varios lenguajes de programación y herramientas de bioinformática:
 
@@ -53,7 +53,7 @@ R: Para análisis estadísticos y visualización de la diversidad microbiana, ut
 Los scripts fueron obtenidos de este repositorio de GitHub
 , que proporciona una implementación detallada y eficiente del pipeline de análisis de datos metabarcoding de 16S rRNA.
 
-Tipos de Scripts:
+## Tipos de Scripts:
 
 Bash: Scripts para procesar los datos de entrada y ejecutar pipelines de análisis.
 
@@ -77,6 +77,6 @@ XML_Filter_dada2.py: Filtra los resultados de Dada2 basándose en los parámetro
 
 dataset/: Carpeta que contiene los archivos de datos de secuenciación (archivos SRA).
 
-Resultados Esperados
+## Resultados Esperados
 
 Se espera identificar una alta diversidad bacteriana en las muestras de sedimentos, con diferencias significativas entre las muestras obtenidas de diferentes puntos geográficos. El análisis proporcionará información clave sobre las comunidades microbianas que habitan en los sedimentos acuáticos y cómo su composición se relaciona con las características ambientales locales.
