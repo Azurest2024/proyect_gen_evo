@@ -5,9 +5,10 @@ Se espera que las comunidades microbianas presentes en los sedimentos de diverso
 
 ## Objetivos
 
-Objetivo General: Analizar las comunidades microbianas de sedimentos acuáticos utilizando datos metabarcoding de 16S rRNA, con el fin de explorar la diversidad bacteriana y su relación con las condiciones ambientales de los ecosistemas.
+### Objetivo General:
+Analizar las comunidades microbianas de sedimentos acuáticos utilizando datos metabarcoding de 16S rRNA, con el fin de explorar la diversidad bacteriana y su relación con las condiciones ambientales de los ecosistemas.
 
-## Objetivos Específicos:
+### Objetivos Específicos:
 
 Obtener datos de secuenciación metabarcoding de sedimentos utilizando el protocolo estándar de la literatura.
 
