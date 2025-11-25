@@ -10,8 +10,6 @@ Analizar las comunidades microbianas de sedimentos acuáticos utilizando datos m
 
 ### Objetivos Específicos:
 
-Obtener datos de secuenciación metabarcoding de sedimentos utilizando el protocolo estándar de la literatura.
-
 Procesar los datos utilizando el pipeline BANZAI, optimizando los scripts en Python, R y Bash.
 
 Realizar la asignación taxonómica de las secuencias mediante la base de datos de referencia y evaluar las comunidades bacterianas presentes.
