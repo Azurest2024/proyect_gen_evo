@@ -8,7 +8,7 @@
 PARENT_DIR="/home/banzai_test/Fastq_files_v3v4/"
 
 # Where is the sequencing metadata file? (SEE FORMATTING GUIDELINES IN README!)
-SEQUENCING_METADATA="/home/banzai_test/input_files/Metadata_file_v3v4.csv"
+SEQUENCING_METADATA="/home/banzai_test/input_files/Metadata_file.csv"
 
 #Value can be either "COI","12S", or "18S"
 MARKER="16S"
