@@ -5,10 +5,10 @@
 # INPUT
 ################################################################################
 # What is the file path to the directory containing all of the libraries/reads?
-PARENT_DIR="/home/gsotil/banzai_test/Fastq_files_v3v4/"
+PARENT_DIR="/home/banzai_test/Fastq_files_v3v4/"
 
 # Where is the sequencing metadata file? (SEE FORMATTING GUIDELINES IN README!)
-SEQUENCING_METADATA="/home/gsotil/banzai_test/input_files/Metadata_file_v3v4.csv"
+SEQUENCING_METADATA="/home/banzai_test/input_files/Metadata_file_v3v4.csv"
 
 #Value can be either "COI","12S", or "18S"
 MARKER="16S"
@@ -18,12 +18,12 @@ MARKER="16S"
 # This script will generate a directory (folder) containing the output of the script.
 # Where do you want this new folder to go?
 # Create this directory before running Banzai
-ANALYSIS_DIRECTORY="/home/gsotil/banzai_test/output_files/"
+ANALYSIS_DIRECTORY="/home/banzai_test/output_files/"
 
 # You can optionally specify a folder into which the script copies a PDF containing some results.
 # The pdf is created by default in the analysis folder specified above, but
 # if you set this to your DropBox or Google Drive Folder, you can check it out from anywhere.
-OUTPUT_PDF_DIR="/home/gsotil/banzai_test/output_files/PDF_files/"
+OUTPUT_PDF_DIR="/home/banzai_test/output_files/PDF_files/"
 SANCTUARY="MB"
 LOCUS="16S"
 BIOM_FILE_NAME="S_16S"
@@ -83,7 +83,7 @@ truncR="230"
 # Note this should be a path to any one of three files WITHOUT their extension *.nhr, *.nin, or *.nsq
 #BLAST_DB='/MBON/blastdb/nr/nr'
 #BLAST_DB='/MBON/blastdb/nr/nr'
-BLAST_DB='/home/gsotil/banzai_test/input_files/Data_base/SILVA_138.2_SSURef_NR99_03_07_24_opt.arb.gz'
+BLAST_DB='/home/banzai_test/input_files/Data_base/SILVA_138.2_SSURef_NR99_03_07_24_opt.arb.gz'
 #BLAST_DB='/MBON/blastdb/Tarav9/Tarav9'
 #BLAST_DB='/MBON/blastdb/greengenes/gg_13_5'
 #BLAST_DB='/MBON/blastdb/greengenes/gg_13_5_with_header'
