@@ -55,7 +55,10 @@ El repositorio contiene los siguientes archivos y carpetas:
 
 - XML_Filter_dada2.py: Filtra los resultados de Dada2 basándose en los parámetros específicos.
 
-- dataset/: Carpeta que contiene los archivos de datos de secuenciación (archivos SRA).
+- dataset/: Carpeta que contiene los archivos de datos de secuenciación (archivos fastq).
+
+<img width="547" height="707" alt="image" src="https://github.com/user-attachments/assets/672e4b5b-7df9-4fca-8b5a-cecac3315f5b" />
+
 
 ## Resultados Esperados
 
