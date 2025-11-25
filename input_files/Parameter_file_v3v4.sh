@@ -5,7 +5,7 @@
 # INPUT
 ################################################################################
 # What is the file path to the directory containing all of the libraries/reads?
-PARENT_DIR="/home/banzai_test/Fastq_files_v3v4/"
+PARENT_DIR="/home/banzai_test/Fastq_files/"
 
 # Where is the sequencing metadata file? (SEE FORMATTING GUIDELINES IN README!)
 SEQUENCING_METADATA="/home/banzai_test/input_files/Metadata_file.csv"
